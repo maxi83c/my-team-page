@@ -20,7 +20,7 @@ body{
   font-size: 36px;
   line-height: 48px;
   letter-spacing: -0.045em;
-  margin: 71px 0 0 12px;
+  margin: 70px 0 0 12px;
   padding: 0;
 }
 
@@ -52,7 +52,7 @@ body{
   display: grid;
   grid-template-columns: 157px 157px;
   grid-template-rows: 237px 248px 261px;
-  margin-top: 38px;
+  margin-top: 39px;
 }
 
 .box{
@@ -70,7 +70,7 @@ body{
   width: 157px;
   height: 237px;
   top: 48px;
-  left: 27px;
+  left: 25px;
 }
 
 .box:nth-child(3){
@@ -82,8 +82,8 @@ body{
 .box:nth-child(4){
   width: 154px;
   height: 248px;
-  top: 100px;
-  left: 27px;
+  top: 112px;
+  left: 24px;
 }
 
 .box:nth-child(5){
@@ -95,10 +95,9 @@ body{
 .box:nth-child(6){
   width: 155px;
   height: 255px;
-  top: 164px;
-  left: 27px;
+  top: 176px;
+  left: 24px;
 }
-
 
 
 .box__img{
@@ -144,7 +143,7 @@ body{
   padding: 0;
   position: absolute;
   top: 70px;
-  right: -67px;
+  right: -70px;
   font-family: 'PT Serif', serif;
   font-style: normal;
   font-weight: normal;
