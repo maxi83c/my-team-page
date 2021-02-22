@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://maxi83c.github.io/devchallenges.io-404-not-found-master/">
+    <a href="https://maxi83c.github.io/my-team-page/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/maxi83c/devchallenges.io-404-not-found-master/">
+    <a href="https://github.com/maxi83c/my-team-page">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+    <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
       Challenge
     </a>
   </h3>
