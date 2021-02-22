@@ -26,4 +26,4 @@
 
 ## Overview
 
-![screenshot](https://raw.githubusercontent.com/maxi83c/devchallenges.io-404-not-found-master/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/maxi83c/my-team-page/master/screenshot.png)
