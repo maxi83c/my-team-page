@@ -7,9 +7,16 @@ body{
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   background-color: #FAFAFA;
-  height: 1338px;
+  height: 1339px;
   position: relative;
 }
+
+@media screen and (min-width: 700px){
+  body{
+    height: 1379px;
+  }
+}
+
 
 .title{
   width: 278px;
@@ -24,6 +31,18 @@ body{
   padding: 0;
 }
 
+@media screen and (min-width: 900px){
+  .title{
+    margin: 70px 0 0 150px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .title{
+    margin: 110px 0 0 243px;
+  }
+}
+
 .subtitle{
   width: 117px;
   height: 27px;
@@ -34,6 +53,27 @@ body{
   text-transform: uppercase;
   margin: 38px 0 0 12px;
   padding: 0;
+}
+
+@media screen and (min-width: 700px){
+  .subtitle{
+    position:absolute;
+    top: 0;
+    left: 350px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width:900px){
+  .subtitle{
+    left: 500px;
+  }
+}
+
+@media screen and (min-width:1200px){
+  .subtitle{
+    left: 736px;
+  }
 }
 
 .information{
@@ -47,12 +87,63 @@ body{
   padding: 0;
 }
 
+@media screen and (min-width: 700px){
+  .information{
+    margin: 0;
+    position: absolute;
+    top: 37px;
+    left: 350px;
+  }
+}
+
+@media screen and (min-width: 800px){
+  .information{
+    width: 439px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+@media screen and (min-width:900px){
+  .information{
+    left: 500px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .information{
+    left: 736px;
+  }
+}
+
 .main{
   position: relative;
   display: grid;
   grid-template-columns: 157px 157px;
   grid-template-rows: 237px 248px 261px;
   margin-top: 39px;
+}
+
+@media screen and (min-width: 700px){
+  .main{
+    margin: 0;
+    top: 173px;
+    grid-template-columns: repeat(3, 157px);
+    grid-template-rows: 248px 261px;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .main{
+    left: 240px;
+    grid-template-columns: repeat(3, 264px);
+    grid-template-rows: 283px 283px;
+    justify-content: start;
+    column-gap: 67px;
+    row-gap: 100px;
+  }
 }
 
 .box{
@@ -99,6 +190,40 @@ body{
   left: 24px;
 }
 
+@media screen and (min-width: 700px){
+  .box{
+    margin: 0;
+  }
+  .box:nth-child(1){
+    top: 0;
+    left: 0;
+  }
+  
+  .box:nth-child(2){
+    top: 99px;
+    left: 0;
+  }
+  
+  .box:nth-child(3){
+    top: 0;
+    left: 0;
+  }
+  
+  .box:nth-child(4){
+    top: 132px;
+    left: 0;
+  }
+  
+  .box:nth-child(5){
+    top: 221px;
+    left: 0;
+  }
+  
+  .box:nth-child(6){
+    top: 132px;
+    left: 0;
+  }
+}
 
 .box__img{
   position: absolute;
@@ -119,6 +244,7 @@ body{
 .box:nth-child(3) > .box__img{
   width: 139px;
   height: 219px;
+
 }
 
 .box:nth-child(4) > .box__img{
@@ -134,6 +260,73 @@ body{
 .box:nth-child(6) > .box__img{
   width: 139px;
   height: 220px;
+}
+
+
+@media screen and (min-width: 1200px){
+  .box:nth-child(1){
+    width: 264px;
+    height: 383px;
+  }
+  
+  .box:nth-child(2){
+    width: 264px;
+    height: 389px;
+  }
+  
+  .box:nth-child(3){
+    width: 264px;
+    height: 383px;
+    left: -1px;
+  }
+  
+  .box:nth-child(4){
+    width: 264px;
+    height: 383px;
+  }
+  
+  .box:nth-child(5){
+    width: 264px;
+    height: 388px;
+    top: 231px;
+  }
+  
+  .box:nth-child(6){
+    width: 264px;
+    height: 383px;
+  }
+
+  .box:nth-child(1) > .box__img{
+    width: 238px;
+    height: 341px;
+  }
+  
+  .box:nth-child(2) > .box__img{
+    width: 238px;
+    height: 347px;
+  }
+  
+  .box:nth-child(3) > .box__img{
+    width: 238px;
+    height: 341px;
+  }
+  
+  .box:nth-child(4) > .box__img{
+    width: 237px;
+    height: 341px;
+  }
+  
+  .box:nth-child(5) > .box__img{
+    width: 238px;
+    height: 347px;
+  }
+  
+  .box:nth-child(6) > .box__img{
+    width: 237px;
+    height: 341px;
+    left: 1px;
+  }
+
 }
 
 .box__title{
@@ -153,6 +346,16 @@ body{
   transform: rotate(90deg); 
 }
 
+@media screen and (min-width: 1200px){
+  .box__title{
+    top: 67px;
+    right: -68px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
 .box__subtitle{
   width: 141px;
   height: 18px;
@@ -167,11 +370,38 @@ body{
   line-height: 21px;
 }
 
+
+@media screen and (min-width: 1200px){
+  .box__subtitle{
+    width: 150px;
+    height: 27px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
 .footer{
   position: absolute;
   bottom: 24px;
   left: 46px;
 }
+
+@media screen and (min-width: 700px){
+  .footer{
+    width: 100%;
+    text-align: center;
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .footer{
+    width: 300px;
+    text-align: left;
+    left: 561;
+  }
+}
+
 .created{
   margin: 0;
   padding: 0;
